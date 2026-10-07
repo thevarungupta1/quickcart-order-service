@@ -1,5 +1,7 @@
-pipeline {
 def attempt = 0
+
+pipeline {
+
     agent any
 
     parameters {
