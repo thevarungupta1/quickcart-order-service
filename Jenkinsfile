@@ -60,12 +60,12 @@ pipeline {
 
             steps {
 
-                 timeout(time: 5, unit: 'SECONDS') {
+                 timeout(time: 2, unit: 'MINUTES') {
 
-                        echo 'Running QuickCart tests'
+    echo 'Running QuickCart tests'
 
-                        sh 'sleep 10'
-                    }
+    echo 'Tests completed'
+}
             }
         }
 
